@@ -45,8 +45,8 @@ def rgb_to_hex(rgb):
 
 formatted_out = '[\n'
 
-for x in range(1000):
-	for y in range(1000):
+for x in range(2000):
+	for y in range(2000):
 		colors = pix[x, y]
 		if colors[3] == 0:
 			continue
@@ -58,3 +58,9 @@ for x in range(1000):
 formatted_out += ']'
 
 print(formatted_out)
+
+# Save the formatted_out data to the JSON file
+with open("orders.json", "w") as json_file:
+    json_file.write(formatted_out)
+
+print("Data has been written to 'orders.json'.")
