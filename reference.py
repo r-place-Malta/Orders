@@ -5,9 +5,9 @@ im = Image.open('reference.png')
 pix = im.load()
 
 color_mappings = {
-    '#6D001A': 0, # Dark red
-    '#BE0039': 1, # Red
-    '#FF4500': 2,
+    '#6D001A': 0, 
+    '#BE0039': 1, # Dark red
+    '#FF4500': 2, # Red
     '#FFA800': 3,
     '#FFD635': 4,
     '#FFF8B8': 5,
