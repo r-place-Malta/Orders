@@ -5,8 +5,8 @@ im = Image.open('reference.png')
 pix = im.load()
 
 color_mappings = {
-    '#6D001A': 0,
-    '#BE0039': 1,
+    '#6D001A': 0, # Dark red
+    '#BE0039': 1, # Red
     '#FF4500': 2,
     '#FFA800': 3,
     '#FFD635': 4,
@@ -34,9 +34,9 @@ color_mappings = {
     '#FFB470': 26,
     '#000000': 27,
     '#898D90': 29,
-    '#515252': 28,
-    '#D4D7D9': 30,
-    '#FFFFFF': 31
+    '#515252': 28, # Gray
+    '#D4D7D9': 30, # Light Grey
+    '#FFFFFF': 31 # White
 }
 orders = []
 
